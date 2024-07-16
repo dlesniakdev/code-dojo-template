@@ -1,7 +1,7 @@
 package ptv.dojo
 
-import io.kotlintest.shouldBe
-import io.kotlintest.specs.FeatureSpec
+import io.kotest.core.spec.style.FeatureSpec
+import io.kotest.matchers.shouldBe
 
 
 class HelloKotlinTest : FeatureSpec({
